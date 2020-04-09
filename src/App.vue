@@ -25,6 +25,9 @@ export default {
         }
       });
     }, 1200000);
+    layui.use("layim", layim => {
+      console.log(layim);
+    });
   },
   data() {
     return {};
